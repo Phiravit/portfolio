@@ -1,0 +1,59 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0; /* Add this line to make the nav bar height adjust automatically */
+    width: 250px;
+    background-color: #151515;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      width: 100%; /* Add this line to make the nav bar width adjust automatically on smaller screens */
+      height: auto; /* Add this line to make the nav bar height adjust automatically on smaller screens */
+    }
+  }
+nav a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #333333;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #333333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border-top: 1px solid #333333;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+
+img.vigivoru {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin-left: 20%;
+    background-color: rgb(163, 222, 231);
+}
