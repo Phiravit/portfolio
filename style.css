@@ -58,7 +58,7 @@ a {
 
 .fancy span {
   display: inline-block;
-    background: linear-gradient(to right, #0084ff, #ffff00,#8b00ff);
+    background: rgb(178, 32, 185);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
